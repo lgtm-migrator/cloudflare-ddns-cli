@@ -9,9 +9,21 @@
   "scripts": {
     "test": "jest --coverage"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cloudflare",
+    "ddns",
+    "cli"
+  ],
+  "author": "Joe Becher (Drazisil) <jwbecher@drazisil.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drazisil/cloudflare-ddns-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drazisil/cloudflare-ddns-cli/issues"
+  },
+  "homepage": "https://github.com/drazisil/cloudflare-ddns-cli#readme",
   "dependencies": {
     "cloudflare-ddns-sync": "^1.5.0"
   },
