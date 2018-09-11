@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/drazisil/cloudflare-ddns-cli.svg?style=shield)](https://circleci.com/gh/drazisil/cloudflare-ddns-cli)
+
 # cloudflare-ddns-cli
 
 A CLI wrapper around [cloudflare-ddns-sync](https://www.npmjs.com/package/cloudflare-ddns-sync) for updating to IP on CloudFlare.
