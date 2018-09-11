@@ -16,7 +16,28 @@ requiredEnvs.forEach(env => {
 var CloudflareDDNSSync = require("cloudflare-ddns-sync");
 
 const host = process.env.CLOUDFLARE_HOST;
-const domain = host.substring(host.indexOf(".") + 1);
+
+// Check if the host has a subdomain
+var count = (host.match(/is/g) || []).length;
+let domain;
+
+switch (count) {
+  case 2:
+    // Strip subdomain
+    domain = host.substring(host.indexOf(".") + 1);
+
+    break;
+  case 1:
+    // No subdomain
+    domain = host;
+    break;
+  default:
+    console.error(
+      `${host} does not look like a valid domain. Did you mistype it?`
+    );
+    process.exit(-1);
+    break;
+}
 
 var ddnsSync = new CloudflareDDNSSync({
   auth: {
