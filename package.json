@@ -1,0 +1,18 @@
+{
+  "name": "cloudflare-ddns-cli",
+  "version": "1.0.0",
+  "description": "a small cli to update your cloudflare record with local ip",
+  "main": "index.js",
+  "bin": {
+    "cf-update": "./bin/cf-update.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cloudflare-ddns-sync": "^1.5.0"
+  }
+}
