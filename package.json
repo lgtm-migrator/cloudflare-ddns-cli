@@ -25,11 +25,11 @@
   },
   "homepage": "https://github.com/drazisil/cloudflare-ddns-cli#readme",
   "dependencies": {
-    "cloudflare-ddns-sync": "^1.5.0"
+    "cloudflare-ddns-sync": "^1.5.4"
   },
   "devDependencies": {
-    "jest": "^23.6.0",
-    "jest-junit": "^5.1.0"
+    "jest": "^24.7.1",
+    "jest-junit": "^6.4.0"
   },
   "jest": {
     "reporters": [
