@@ -1,6 +1,6 @@
 {
   "name": "cloudflare-ddns-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a small cli to update your cloudflare record with local ip",
   "main": "index.js",
   "bin": {
