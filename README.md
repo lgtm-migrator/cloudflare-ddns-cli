@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/drazisil/cloudflare-ddns-cli.svg?style=shield)](https://circleci.com/gh/drazisil/cloudflare-ddns-cli)
+[![CircleCI](https://circleci.com/gh/drazisil/cloudflare-ddns-cli.svg?style=shield)](https://circleci.com/gh/drazisil/cloudflare-ddns-cli) [![Greenkeeper badge](https://badges.greenkeeper.io/drazisil/cloudflare-ddns-cli.svg)](https://greenkeeper.io/)
 
 # cloudflare-ddns-cli
 
@@ -19,3 +19,5 @@ You will need to set the following environmental varibles:
 ## Running:
 
 - `cf-update`
+
+.
